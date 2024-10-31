@@ -208,10 +208,19 @@ class ParchmentLauncher
 }
 
 $(() => {
+    $("button#StartGame").show();
+    $("div#gameport").hide();
+    $("div#UserActivationCatcher").on("click", function() { StartParchment(); });
+})
+
+function StartParchment()
+{
+    $("button#StartGame").hide();
+    $("div#gameport").show();
     const parchment = new ParchmentLauncher(window.parchment_options)
     window.parchment = parchment
 
     if (parchment.options.auto_launch) {
         parchment.launch()
     }
-})
+}
