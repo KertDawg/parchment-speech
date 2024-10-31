@@ -7,9 +7,9 @@
 [submodule "src/upstream/glkote"]
 	path = src/upstream/glkote
 	url = ../../curiousdannii/glkote.git
-[submodule "src/upstream/ifvms.js"]
-	path = src/upstream/ifvms.js
-	url = ../../curiousdannii/ifvms.js.git
 [submodule "src/upstream/quixe"]
 	path = src/upstream/quixe
 	url = ../../curiousdannii/quixe.git
+[submodule "src/upstream/ifvms.js"]
+	path = src/upstream/ifvms.js
+	url = https://github.com/KertDawg/ifvms.js-speech.git
