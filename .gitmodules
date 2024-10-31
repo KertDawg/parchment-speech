@@ -10,6 +10,3 @@
 [submodule "src/upstream/quixe"]
 	path = src/upstream/quixe
 	url = ../../curiousdannii/quixe.git
-[submodule "src/upstream/ifvms.js"]
-	path = src/upstream/ifvms.js
-	url = https://github.com/KertDawg/ifvms.js-speech.git
